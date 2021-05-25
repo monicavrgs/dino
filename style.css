@@ -1,0 +1,57 @@
+body {
+    background-image: url(./imagens/background.png);
+    background-size: auto;
+    background-position-y: bottom;
+}
+
+.start{
+    position: absolute;
+    top: 250px; right: 650px;
+}
+
+.game-over{
+    position: absolute;
+    top: 100px; right: 550px;
+    font-family: sans-serif;
+    color: #5a5a5a;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.reinicia{
+    position: absolute;
+    top: 290px; right: 650px; 
+}
+
+.start, .reinicia{
+    padding: 10px 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.placar{
+    display: inline-flex;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.placar-titulo{
+    padding-right: 10px;
+}
+
+.dino{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0; left: 10px; 
+}
+
+.cacto{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0; left: 1000px;
+}
